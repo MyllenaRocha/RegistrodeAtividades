@@ -1,5 +1,10 @@
 {% extends "learning_logs/base.html" %}
 
-    {% block content %}
-        <p>Registro de aprendizado ajuda você a acompanhar seu aprendizado, para qualquer tópico você está aprendendo.</p>
-    {% endblock content %}
+{% block header %}
+<div class='jumbotron'><h1>Acompanhe seu aprendizado.</h1> </div> 
+{% endblock header %}
+{% block content %}
+<h2><a href="{% url 'register' %}">Cadastre-se</a> para criar seu próprio Registro de Aprendizagem e listar os tópicos sobre os quais você está aprendendo.</h2><h2>Sempre que você aprender algo novo sobre um tópico, faça uma entrada resumindo o que você aprendeu.</h2>
+{% endblock content %}    
+    
+
