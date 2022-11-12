@@ -1,1 +1,1 @@
-web: gunicorn "configlearninglob.wsgi"
+web: gunicorn "configlearninglog.wsgi"
